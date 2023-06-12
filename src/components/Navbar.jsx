@@ -45,7 +45,7 @@ const Navbar = () => {
 key={id} 
 className='px-4 cursor-pointer capitalize font-medium
 text-gray-500 hover:scale-105 duration-200'>
-<Link onClick={() => setNav ( !nav )}  to={link} smooth >{links}</Link>
+{link}
 </li>
 </div>
             ))}
