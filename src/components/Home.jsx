@@ -26,13 +26,13 @@ const Home = () => {
           </div>
           </div>
          <div>
-            <Link to={Navbar} smooth duration={500} className='group text-white text-2xl w-fit px-3 py-2 my-2
+            <button className='group text-white text-2xl w-fit px-3 py-2 my-2
             flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
               Download
               <span className='group-hover:rotate-90'>
                 <MdOutlineKeyboardArrowRight size={25} className='ml-2'/>
               </span>
-            </Link>
+            </button>
           </div>
   
         </div>
