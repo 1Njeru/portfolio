@@ -9,38 +9,42 @@ const SocialLinks = () => {
 
 
   return (
-    <div className='lg:flex flex-col top-[30%] left-0 fixed'>
-<ul>
-    <li className='flex justify-between item-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] duration-300'>
+    <div name='sociallinks' className='lg:h-screen 
+     h-full text-white bg-gradient-to-b from-black to-gray-800 flex-auto'>
+    <div className='max-w-screen-lg p-4 mx-auto flex flex-col  w-full h-full'>
+<ul className='flex gap-4 items-center justify-center text-center  pb-6'>
+    <li className='flex justify-between item-center w-20 '>
         <a href='https://www.linkedin.com/in/edwardnyaganjeru/' className='flex justify-between items-center w-full text-white'>
            <>
-           LinkedIn <FaLinkedin size={30}/>
+           <FaLinkedin size={30}/>
            </> 
         </a>
     </li>
-    <li className='flex justify-between item-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] duration-300'>
+    <li className='flex justify-between item-center w-20 '>
         <a href='mailto:nyagaedward23@gmail.com' className='flex justify-between items-center w-full text-white'>
            <>
-           Email <HiOutlineMail size={30}/>
+           <HiOutlineMail size={30}/>
            </> 
         </a>
     </li>
-    <li className='flex justify-between item-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] duration-300'>
+    <li className='flex justify-between item-center w-20 '>
         <a href='https://github.com/1njeru' className='flex justify-between items-center w-full text-white'>
            <>
-           Github <FaGithub size={30}/>
+           <FaGithub size={30}/>
            </> 
         </a>
     </li>
-    <li className='flex justify-between item-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] duration-300'>
+    <li className='flex justify-between item-center w-20 '>
         <a href='/resume.pdf' className='download-true flex justify-between items-center w-full text-white'>
            <>
-           Resume<BsFillPersonLinesFill size={30}/>
+           <BsFillPersonLinesFill size={30}/>
            </> 
         </a>
     </li>
 </ul>
     </div>
+    </div>
+    
   )
 }
 
