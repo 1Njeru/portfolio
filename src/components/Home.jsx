@@ -1,8 +1,6 @@
 import React from 'react';
 import pio from '..//assets/pio.jpeg';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
-import { Link } from 'react-scroll'
-import Navbar from './Navbar';
 const Home = () => {
   return (
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black to-gray-800 flex-auto'>
