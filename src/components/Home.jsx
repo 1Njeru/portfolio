@@ -1,5 +1,5 @@
 import React from 'react';
-import ny from '..//assets/ny.jpg';
+import ny from '..//assets/ny.JPG';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 const Home = () => {
   return (
