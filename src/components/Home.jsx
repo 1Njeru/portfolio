@@ -1,5 +1,5 @@
 import React from 'react';
-import ny from '..//assets/ny.JPG';
+
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 const Home = () => {
   return (
@@ -15,10 +15,7 @@ const Home = () => {
           <p className='text-xl text-white'>
             As a full-stack developer, I am well-versed in both front-end and back-end technologies, 
     allowing me to handle the complete development process of web applications. 
-    I have extensive experience in designing and implementing user-friendly interfaces using HTML, CSS,
-    and JavaScript frameworks like React and Django.
-    Overall, as a full-stack developer, I bring a comprehensive skill set and a passion for creating 
-    high-quality software solutions that meet the needs of both end-users and businesses. 
+    I have extensive experience in designing and implementing user-friendly interface to meet the needs of both end-users and businesses. 
           </p>
           <div>
           <img src={ny} alt='my' className='rounded-2xl mx-auto'/>
