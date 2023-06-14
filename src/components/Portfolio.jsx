@@ -1,6 +1,6 @@
 import React from 'react'
 import ross from '../assets/ross.jpeg'
-import pio from '../assets/pio.jpeg'
+
 import bade from '../assets/bade.png'
 
 const Portfolio = () => {
