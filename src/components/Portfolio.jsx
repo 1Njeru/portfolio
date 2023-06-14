@@ -1,6 +1,6 @@
 import React from 'react'
 import ross from '../assets/ross.jpeg'
-import ny from '../assets/ny.JPG'
+import pio from '../assets/pio.JPG'
 import bade from '../assets/bade.png'
 
 const Portfolio = () => {
@@ -32,7 +32,7 @@ const Portfolio = () => {
                 </div>
 
                 <div className='shadow-md shadow-gray-600 rounded-lg w-60'>
-                    <img src={ny} alt='' className='rounded-md duration-200 hover:scale-105'/>
+                    <img src={pio} alt='' className='rounded-md duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center'>
                         <button className='w-1/2 px-4 py-2 duration-200 hover:scale-105'>Demo</button>
                         <button className='w-1/2 px-4 py-2 duration-200 hover:scale-105'>Code</button>
