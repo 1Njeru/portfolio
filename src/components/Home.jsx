@@ -1,5 +1,5 @@
 import React from 'react';
-import pio from '..//assets/pio.jpeg';
+import ny from '..//assets/ny.jpeg';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 const Home = () => {
   return (
@@ -9,13 +9,16 @@ const Home = () => {
           <div>
         <div>
           <h1 className=' text-orange-800 font-bold text-3xl pb-6'>
-            I am a Full Stack Developer.
+            I am a Full-stack Developer, looking for a Junior Role or Internship.
           </h1>
           <div className='flex'>
           <p className='text-xl text-white'>
-            1 year experience building and designing software.
-            I love to work on web applications using technologies like
-            React, Tailwind, Next JS and GraphQl.  
+            As a full-stack developer, I am well-versed in both front-end and back-end technologies, 
+    allowing me to handle the complete development process of web applications. 
+    I have extensive experience in designing and implementing user-friendly interfaces using HTML, CSS,
+    and JavaScript frameworks like React and Django.
+    Overall, as a full-stack developer, I bring a comprehensive skill set and a passion for creating 
+    high-quality software solutions that meet the needs of both end-users and businesses. 
           </p>
           <div>
           <img src={pio} alt='my' className='rounded-2xl w-60  mx-auto '/>
@@ -26,7 +29,7 @@ const Home = () => {
          <div>
             <button className='group text-white text-2xl w-fit px-3 py-2 my-2
             flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-              Download
+             Scroll Down
               <span className='group-hover:rotate-90'>
                 <MdOutlineKeyboardArrowRight size={25} className='ml-2'/>
               </span>
