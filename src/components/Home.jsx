@@ -21,8 +21,8 @@ const Home = () => {
           </div>
           </div>
           </div>
-         <div>
-            <button className='group text-white text-2xl w-fit pt-6 px-3 py-2 my-2
+         <div className='pt-8'>
+            <button className='group text-white text-2xl w-fit  px-3 py-2 my-2
             flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
              learn more
               <span className='group-hover:rotate-90'>
