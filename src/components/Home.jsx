@@ -21,7 +21,7 @@ const Home = () => {
     high-quality software solutions that meet the needs of both end-users and businesses. 
           </p>
           <div>
-          <img src={ny} alt='my' className='rounded-2xl w-60  mx-auto '/>
+          <img src={ny} alt='my' className='rounded-2xl mx-auto'/>
           </div>
           </div>
           </div>
