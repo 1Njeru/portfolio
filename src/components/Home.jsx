@@ -17,9 +17,7 @@ const Home = () => {
     allowing me to handle the complete development process of web applications. 
     I have extensive experience in designing and implementing user-friendly interface to meet the needs of both end-users and businesses. 
           </p>
-          <div>
-          <img src={ny} alt='my' className='rounded-2xl mx-auto'/>
-          </div>
+      
           </div>
           </div>
           </div>
