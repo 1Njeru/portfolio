@@ -31,14 +31,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className='shadow-md shadow-gray-600 rounded-lg w-60'>
-                    <img src={pio} alt='' className='rounded-md duration-200 h-40 hover:scale-105'/>
-                    <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-4 py-2 duration-200 hover:scale-105'>Demo</button>
-                        <button className='w-1/2 px-4 py-2 duration-200 hover:scale-105'>Code</button>
-                        
-                    </div>
-                </div>
+             
 
             </div>
         </div>
